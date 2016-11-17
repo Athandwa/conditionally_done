@@ -1,5 +1,5 @@
 // - Transportation
-// - Eating food 
+// - Eating food
 // - Wacth TV
 // - Listening to music
 
@@ -7,8 +7,8 @@
 // eating a Breakfast in the morning should return 07:00, eating Lunch should
 // return 13:00 otherwise 'I do not eat'.
 
-function EatingFood(time) {
-  switch(time) {
+function eatingFood(eatingTime) {
+  switch(eatingTime) {
     case 'Breakfast':
       return '07:00';
     case 'Lunch':
@@ -22,6 +22,6 @@ function EatingFood(time) {
 // console.log(EatingFood('I do nt eat'));
 const assert = require('assert')
 
-assert.equal(EatingFood('Breakfast'), '07:00');
-assert.equal(EatingFood('Lunch'), '13:00');
-assert.equal(EatingFood('Supper'), 'I do not eat');
+assert.equal(eatingFood('Breakfast'), '07:00');
+assert.equal(eatingFood('Lunch'), '13:00');
+assert.equal(eatingFood('Supper'), 'I do not eat');
