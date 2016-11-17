@@ -3,7 +3,7 @@
 // - Wacth TV
 // - Listening to music
 
-// - Write a function called EatingFood that takes in a time parameter. If you
+// - Write a function called EatingFood that takes in a eatingTime parameter. If you
 // eating a Breakfast in the morning should return 07:00, eating Lunch should
 // return 13:00 otherwise 'I do not eat'.
 
