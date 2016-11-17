@@ -1,5 +1,5 @@
 // - Transportation
-// - Eating food in the morning
+// - Eating food 
 // - Wacth TV
 // - Listening to music
 
